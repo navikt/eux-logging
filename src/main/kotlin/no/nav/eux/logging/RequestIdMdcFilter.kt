@@ -35,7 +35,7 @@ open class RequestIdMdcFilter : Filter {
     private fun HttpServletRequest.toNavRequestId() =
         headerNames
             .toList()
-            .map { Pair<String, String>(it.lowercase(), it) }
+            .map { it.lowercase() to it }
             .firstOrNull { it.first.keyExists() }
             ?.let { getHeader(it.second) }
             ?: randomUUID().toString()
