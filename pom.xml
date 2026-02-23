@@ -11,13 +11,13 @@
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
-        <kotlin.version>1.9.25</kotlin.version>
-        <jakarta.servlet.api.version>6.0.0</jakarta.servlet.api.version>
-        <slf4j.api.version>2.0.16</slf4j.api.version>
+        <kotlin.version>2.2.21</kotlin.version>
+        <jakarta.servlet.api.version>6.1.0</jakarta.servlet.api.version>
+        <slf4j.api.version>2.0.17</slf4j.api.version>
         <eux.versions.maven.plugin.version>0.0.2</eux.versions.maven.plugin.version>
         <maven-scm-plugin.version>2.0.1</maven-scm-plugin.version>
-        <maven-surefire-plugin.version>3.2.5</maven-surefire-plugin.version>
-        <maven-failsafe-plugin.version>3.2.5</maven-failsafe-plugin.version>
+        <maven-surefire-plugin.version>3.5.4</maven-surefire-plugin.version>
+        <maven-failsafe-plugin.version>3.5.4</maven-failsafe-plugin.version>
     </properties>
 
     <scm>
